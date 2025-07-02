@@ -1,0 +1,9 @@
+start,end,cost,layer,path
+"104.142036669, 51.5093257801","104.143973282, 51.5123985953",369.680177102888,Кратчайший путь,"LineString?crs=EPSG:4326&field=start:string(0,0)&field=end:string(0,0)&field=cost:double(0,0)&uid={09dd7433-439c-46cd-aa06-9f5fe46cac10}"
+"104.137784541, 51.5156185732","104.143937496, 51.51239008",562.6763609748,Кратчайший путь,"LineString?crs=EPSG:4326&field=start:string(0,0)&field=end:string(0,0)&field=cost:double(0,0)&uid={1bd9c0fa-e29b-467b-879c-413ce188d354}"
+"104.132759873, 51.5201213135","104.137771911, 51.5155936841",1103.55662994494,Кратчайший путь,"LineString?crs=EPSG:4326&field=start:string(0,0)&field=end:string(0,0)&field=cost:double(0,0)&uid={e9ba26c1-9007-4ec9-aa0a-ddefefc9c16a}"
+"104.143950127, 51.5123756695","104.141630401, 51.5092890964",409.792851651212,Кратчайший путь,"LineString?crs=EPSG:4326&field=start:string(0,0)&field=end:string(0,0)&field=cost:double(0,0)&uid={da95bf81-0f64-40a7-9e27-a437addefa0a}"
+"104.134382838, 51.5236747255","104.132766188, 51.5201200036",443.45675850998,Кратчайший путь,"LineString?crs=EPSG:4326&field=start:string(0,0)&field=end:string(0,0)&field=cost:double(0,0)&uid={f6ff7ba8-fe07-4515-a721-fc78389fc49b}"
+"104.143976308, 51.5123966712","104.226821234, 51.5000130935",6401.25849226358,Кратчайший путь,"LineString?crs=EPSG:4326&field=start:string(0,0)&field=end:string(0,0)&field=cost:double(0,0)&uid={b5349c9d-af73-4668-8dbd-062156440f0b}"
+"104.153736336, 51.5230774888","104.134361788, 51.5236721061",1348.00310519201,Кратчайший путь,"LineString?crs=EPSG:4326&field=start:string(0,0)&field=end:string(0,0)&field=cost:double(0,0)&uid={cea59eab-a949-4ecc-8d68-e251ed05631d}"
+"104.141617771, 51.5093008876","104.142047194, 51.5093284004",47.7671190906256,Кратчайший путь,"LineString?crs=EPSG:4326&field=start:string(0,0)&field=end:string(0,0)&field=cost:double(0,0)&uid={bc597428-0dc7-41c4-9fb6-e372bb50367e}"
