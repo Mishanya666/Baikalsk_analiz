@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Анализ точек притяжения города Байкальска</title>
+  <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+    .viz-container {
+      margin-bottom: 40px;
+    }
+    .title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    #viz1, #viz2, #viz3 {
+      width: 100%;
+      height: 700px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Дашборды по анализируемым территориям</h1>
+
+  <div class="viz-container">
+    <div class="title">1. Анализ туристических маршрутов города Иркутск</div>
+    <div id="viz1"></div>
+  </div>
+
+  <div class="viz-container">
+    <div class="title">2. Анализ туристических маршрутов острова Ольхон</div>
+    <div id="viz2"></div>
+  </div>
+
+  <div class="viz-container">
+    <div class="title">3. Анализ туристических маршрутов Листвянки</div>
+    <div id="viz3"></div>
+  </div>
+
+  <div class="viz-container">
+    <div class="title">4. Анализ треков Иркутской области</div>
+    <div id="viz4"><img src="map.png" width="1000"></div>
+  </div>
+
+  <script>
+    const vizURLs = [
+      "https://public.tableau.com/app/profile/.51195949/viz/_17514683933230/sheet0?publish=yes",
+      "https://public.tableau.com/views/_17473122169040/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+      "https://public.tableau.com/views/_17473129003450/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+    ];
+
+    const vizOptions = {
+      hideToolbar: true,
+      hideTabs: true,
+      width: "100%",
+      height: "700px"
+    };
+
+    new tableau.Viz(document.getElementById("viz1"), vizURLs[0], vizOptions);
+    new tableau.Viz(document.getElementById("viz2"), vizURLs[1], vizOptions);
+    new tableau.Viz(document.getElementById("viz3"), vizURLs[2], vizOptions);
+  </script>
+</body>
+</html>
