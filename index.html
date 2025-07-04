@@ -42,7 +42,7 @@
   </div>
 
   <div class="viz-container">
-    <div class="title">4. Анализ треков Иркутской области</div>
+    <div class="title">4. Туристические маршруты Байкальска</div>
     <div id="viz4"><img src="map.png" width="1000"></div>
   </div>
 
@@ -51,6 +51,7 @@
       "https://public.tableau.com/views/_17516300466340/sheet3?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
       "https://public.tableau.com/views/_17516279933130/sheet1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link",
       "https://public.tableau.com/views/_17514682151670/sheet0?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+      "https://public.tableau.com/shared/FWBMDJWT6?:display_count=n&:origin=viz_share_link"
     ];
 
     const vizOptions = {
@@ -63,6 +64,8 @@
     new tableau.Viz(document.getElementById("viz1"), vizURLs[0], vizOptions);
     new tableau.Viz(document.getElementById("viz2"), vizURLs[1], vizOptions);
     new tableau.Viz(document.getElementById("viz3"), vizURLs[2], vizOptions);
+    new tableau.Viz(document.getElementById("viz4"), vizURLs[3], vizOptions);
+    
   </script>
 </body>
 </html>
